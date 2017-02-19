@@ -1,12 +1,17 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/invitation/invitation",
-    "pages/buid/buid",
-    "pages/detail/detail",
-    "pages/myCircle/myCircle",
-    "pages/personalCenter/perdonalCenter"
+   
+   
+    
+   
+    
+   "pages/personalCenter/personalCenter",
+     "pages/index/index",
+      "pages/logs/logs",
+      "pages/invitation/invitation",
+       "pages/buid/buid",
+       "pages/detail/detail",
+        "pages/myCircle/myCircle"
     
     
     
