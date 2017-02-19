@@ -1,0 +1,57 @@
+/* pages/personalCenter/perdonalCenter.wxss */
+.outPut{
+    min-height:1334rpx;
+    background:#edeef0;
+    padding-top:1rpx;
+    font-size:28rpx;
+    color:#a8a8a8;
+}
+.container-user{
+    display:flex;
+    background:#fff;
+    margin-top:20rpx;
+    padding:22rpx;
+}
+.container-user image{
+    width:130rpx;
+    height:130rpx;
+    border-radius: 10%;
+    border:1rpx solid #ddd;
+ }
+ .item-name{
+     font-size:34rpx;
+     color:#000;
+     margin:23rpx 0 30rpx 22rpx;
+ }
+ .item-drs{
+     color:#a8a8a8;
+     margin:0 0 33rpx 22rpx ;
+ }
+ .myCircle{
+     padding:20rpx 0 20rpx 30rpx;  
+     color:#000;
+     font-size:34rpx;
+ }
+ .container-mycircle{
+     margin-top:20rpx;
+     background:#fff;
+     display:flex;
+     justify-content: space-between;
+ }
+ .container-mycircle image{
+     width:16rpx;
+     height:25rpx;
+     margin:31rpx 30rpx 32rpx;
+ }
+ .circle-build{
+     width:690rpx;
+     height:88rpx;
+     background:#4f99f8;
+     margin:50rpx 30rpx 0 30rpx;
+     color:#fff;
+     font-size: 36rpx;
+     border-radius: 3%;
+     text-align:center;
+     line-height:88rpx;
+ }
+ 

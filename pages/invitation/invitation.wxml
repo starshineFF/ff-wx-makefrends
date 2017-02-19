@@ -1,0 +1,108 @@
+<view>
+    <view  wx:for="{{list}}">
+        <view class="container-out">
+            <view class="item-pic">
+                <image src="{{item.pic}}"></image>
+            </view>
+            <view class="item-cnt">
+                <view class="item-cnt-nc">{{item.name}}</view>
+                <view class="item-cnt-date">{{item.date}}</view>
+                <view class="item-cnt-image">
+                    <image src="{{item.image1}}"></image>
+                    <image src="{{item.image2}}"></image>
+                    <image src="{{item.image3}}"></image>
+                </view>
+                <view class="text">{{item.txt}}</view>
+            </view>
+        </view>  
+        <view class="container-cmt">
+            <view class="item-img">
+                <image src="{{item.cmtPic}}"></image>
+            </view>
+            <view class="item-cmt-1">{{item.cmtPicNum}}</view>
+            <view class="item-img">
+                <image src="{{item.cmtPic2}}"></image>
+            </view>
+            <view class="item-cmt-2">{{item.cmtPic2Num}}</view>
+        </view> 
+        <view class="container-dar">
+            <view class="item-dar-image">
+                <image src="../../pic/2.jpg"></image>
+            </view>
+            <view class="item-dar-ctn">
+                <view class="ctn-nc">
+                    <view class="dar">{{item. darName}}</view>
+                    <view class="cancle"><text>取消关注                              </text></view>
+                </view>
+                <view class="ctn-txt">{{item.darCtn}}</view>
+            </view>
+        </view>
+        <view class="outCtn">
+            <view class="cmt-list">评论列表</view>
+            <view class="container-jj">
+                <view class="item-jj-pic">
+                    <image src="../../pic/1.jpg"></image>
+                </view>
+                <view class="item-js-ctn">
+                    <view class="ctn-out">
+                        <view class="js-ctn-nc">   
+                            {{item.cmtName}}
+                        </view>
+                        <view class="js-ctn-dlt">删除</view>
+                    </view>
+                    <view class="js-ctn-txt">
+                        {{item.cmtCtn}}                      
+                    </view>
+                    <view class="js-ctn-js">
+                        <image src="../../imgs/ic_praise_1.png">
+                        </image>
+                        <text>{{item.cmtNum}}</text>
+                    </view>
+                </view>
+            </view>
+             <view class="container-jj">
+                <view class="item-jj-pic">
+                    <image src="../../pic/2.jpg"></image>
+                </view>
+                <view class="item-js-ctn">
+                    <view class="ctn-out">
+                        <view class="js-ctn-nc">   
+                            {{item.cmtName}}
+                        </view>
+                        <view class="js-ctn-dlt">删除</view>
+                    </view>
+                    <view class="js-ctn-txt">
+                        {{item.cmtCtn}}                      
+                    </view>
+                    <view class="js-ctn-js">
+                        <image src="../../imgs/ic_praise_1.png">
+                        </image>
+                        <text>{{item.cmtNum}}</text>
+                    </view>
+                </view>
+            </view>
+            <view class="container-jj">
+                <view class="item-jj-pic">
+                    <image src="../../pic/2.jpg"></image>
+                </view>
+                <view class="item-js-ctn">
+                    <view class="ctn-out">
+                        <view class="js-ctn-nc">   
+                            {{item.cmtName}}
+                        </view>
+                        <view class="js-ctn-dlt">删除</view>
+                    </view>
+                    <view class="js-ctn-txt">
+                        {{item.cmtCtn}}                      
+                    </view>
+                    <view class="js-ctn-js">
+                        <image src="../../imgs/ic_praise_1.png">
+                        </image>
+                        <text>{{item.cmtNum}}</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    
+</view>

@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/invitation/invitation",
+    "pages/buid/buid",
+    "pages/detail/detail",
+    "pages/myCircle/myCircle",
+    "pages/personalCenter/perdonalCenter"
+    
+    
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,79 @@
+<view class="outPut" >
+    <view class="container-dar">
+            <view class="item-dar-image">
+                <image src="../../pic/2.jpg"></image>
+            </view>
+            <view class="item-dar-ctn">
+                <view class="ctn-nc">
+                    <view class="dar">小花日记</view>
+                    <view class="cancle">
+                        <text>+关注</text>
+                    </view>
+                </view>
+                <view class="container-count">
+                    <text  class="count1">
+                        <text>37</text>帖子
+                    </text>
+                    <text  class="count2">
+                         <text>184</text>关注
+                    </text>
+                   
+                </view>
+                <view class="ctn-txt">
+                    旅行中的时光总是值得被记录的，美好的事关也应该被分享。
+                </view>
+            </view>
+    </view>
+     <view class="container-title">
+        <view class="item-title">
+             <view class="item-txt">热门</view> 
+        </view>
+        <view class="item-title ">
+            <view class="item-txt border-bottom">最新</view>
+        </view>
+     </view>  
+    <view wx:for="{{list}}">
+            <view >
+                <view class="container-out">
+                    <view class="item-pic">
+                        <image src="{{item.user.pic}}"></image>
+                    </view>
+                    <view class="item-cnt">
+                        <view class="item-cnt-nc">
+                             {{item.user.name}}
+                        </view>
+                        <view class="item-cnt-date">
+                            {{item.date}}
+                        </view>
+                        <view class="item-cnt-image"> 
+                            <image src="{{imgItem}}"
+                             wx:for="{{item.image}}" 
+                             wx:for-item="imgItem"/> 
+                        </view>
+                        <view class="text">
+                             {{item.ctn}}
+                        </view>
+                    </view>  
+                </view>
+                <view class="container-cmt">
+                    <view class="item-img">
+                        <image src="../../imgs/ic_praise_1.png">
+                        </image>
+                    </view>
+                    <view class="item-cmt-1">
+                        {{item.like}}
+                    </view>
+                    <view class="item-img">
+                        <image src="../../imgs/ic_reply.png">
+                        </image>
+                    </view>
+                    <view class="item-cmt-2">
+                        {{item.cmtCount}}
+                    </view>
+                </view> 
+            </view>
+    </view>
+    
+</view>
+
+

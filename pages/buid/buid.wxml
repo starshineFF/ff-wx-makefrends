@@ -1,0 +1,17 @@
+<view >
+    <view class="output">
+        <view class="output-content">
+            <view class="part-1">
+                <image src="../../pic/2.jpg"></image>
+                <image class="opacity" src="../../imgs/ic_add_3.png"></image>
+            </view>
+            <view class="part-2">
+                <input  class="ipt" type="text" placeholder="圈子名称，3~15个字符..." placeholder-style="margin-left:20rpx;color:#a8a8a8;"/>
+            </view>
+            <view class="part-3">
+                <textarea placeholder="发表一下您的看法..." class="ipt2" placeholder-style="color:#a8a8a8;"/>
+            </view>
+            <button class="part-4-btn">提交</button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,48 @@
+<view class="outPut">
+    <view class="container-dar">
+            <view class="item-dar-image">
+                <image src="../../pic/2.jpg"></image>
+            </view>
+            <view class="item-dar-ctn">
+                <view class="ctn-nc">
+                    <view class="dar">小花日记</view>
+                    <image src="../../imgs/ic_create.png">
+                    </image>
+                </view>
+                <view class="ctn-txt">
+                    记录猫咪们的美好时刻，喜欢猫咪们的关注起来，一起分享吧！
+                </view>
+            </view>
+    </view>
+    <view class="container-dar">
+            <view class="item-dar-image">
+                <image src="../../pic/3.jpg" 
+                id="circle-position">
+                </image>
+                <view class="circle"></view>
+            </view>
+            <view class="item-dar-ctn">
+                <view class="ctn-nc flex-style">
+                    <view class="dar">一起走吧，去旅行</view>
+                    <view class="focus">
+                        <text>+关注</text>
+                        <!--点击切换-->
+                        <!--<text>取消关注</text>-->
+                    </view>
+                </view>
+                <view class="container-count">
+                    <text  class="count1">
+                        <text>37</text>帖子
+                    </text>
+                    <text  class="count2">
+                         <text>184</text>关注
+                    </text>
+                   
+                </view>
+                <view class="ctn-txt">
+                    旅行中的时光总是值得被记录的，美好的事关也应该被分享。
+                </view>
+            </view>
+    </view>
+    
+</view>

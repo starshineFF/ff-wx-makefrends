@@ -1,0 +1,99 @@
+/* pages/myCircle/myCircle.wxss */
+.outPut{
+    font-size:28rpx;
+    background: #edeef0;
+    min-height:1334rpx;
+    padding-top:1rpx;
+}
+.container-dar{
+    display: flex;
+    margin-top:20rpx;
+    background:#fff;
+}
+.container-dar .item-dar-image image{
+    width:140rpx;
+    height:140rpx;
+    margin:35rpx 20rpx 35rpx 30rpx;
+}
+#circle-position{
+    position:relative;
+}
+.circle{
+    width:24rpx;
+    height:24rpx;
+    border-radius: 50%;
+    background:red;
+    position:absolute;
+    top:22%;
+    left:20.5%;
+}
+.item-dar-ctn .ctn-txt{
+    width:530rpx;
+}
+.item-dar-ctn .ctn-nc{
+    display: flex;
+}
+.ctn-nc image{
+    width:64rpx;
+    height:32rpx;
+    margin:44rpx 0 0 20rpx;
+}
+.dar{
+    margin:45rpx 0 24rpx 0;
+    font-size: 30rpx;
+    color:#4d4d4d;
+    font-weight: bold;
+}
+.focus{
+   width:120rpx;
+   height:54rpx;
+   font-size: 22rpx;
+   border:1rpx solid #edeef0;
+   line-height:54rpx;
+   box-sizing: border-box;
+   margin-right:30rpx;
+   text-align: center;
+   color:#4f99f8;
+}
+.cancle{
+    color:#8f8f8f;
+}
+.ctn-txt{
+    font-size:28rpx;
+    color:#666;
+    margin-block-end: 30rpx;
+    line-height:38rpx;
+    margin-bottom: 30rpx;
+}
+.container-count{
+    display:flex;
+    font-size: 24rpx;
+}
+.container-count{
+    display:flex;
+    font-size: 24rpx;
+}
+.count1{
+    color:#4f99f8;
+}
+.count2{
+    color:#ff687e;
+    border-left:1rpx solid #ddd;
+    margin-left:16rpx;
+    margin-bottom:22rpx;
+    padding-left:16rpx;
+}
+.cancle{
+   font-size: 22rpx;
+   border:1rpx solid #edeef0;
+   padding:16rpx;
+   box-sizing: border-box;
+   margin-right:30rpx;
+   text-align: center;
+   color:#4f99f8;
+}
+/*单独为第二块设置的flex样式*/
+.flex-style{
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,47 @@
+<view class="outPut">
+    <view class="container-search">
+        <view class="item-ipt">
+            <input type="text" placeholder="请输入搜索内容"  placeholder-style="text-align:center;" />
+        </view>  
+        <view class="item-search">
+            <image src="../../imgs/ic_search.png" mode="aspectFit"></image>
+        </view>
+    </view>
+    <view class="container-title">
+        <view class="item-title">
+            <view class="item-txt">热门</view> 
+        </view>
+        <view class="item-title ">
+            <view class="item-txt border-bottom">最新</view>
+        </view>
+    </view>
+    <view wx:for="{{list}}">
+        <view class="container-ctn">
+            <view class="item-pic">
+                <image src="{{item.pic}}"></image>
+            </view>
+            <view class="item-ctn">
+                <view class="item-ctn-nc ">{{item.name}}</view>
+                <view class="item-ctn-date">
+                    <text>{{item.date}}</text>
+                    来自  
+                    <text>  {{item.title}}</text>
+                </view>
+                <view class="item-ctn-txt">
+                   {{item.ctn}}
+                </view>
+            </view>
+        </view>
+        <view class="container-cmt">
+            <view class="item-img">
+                <image src="../../imgs/ic_praise_1.png"></image>
+            </view>
+            <view class="item-cmt-1">{{item.like}}</view>
+            <view class="item-img">
+                <image src="../../imgs/ic_reply.png"></image>
+            </view>
+            <view class="item-cmt-2">{{item.cmt}}</view>
+        </view>
+    </view>
+    
+</view>
