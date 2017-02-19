@@ -1,0 +1,2 @@
+# ff-wx-makefrends
+makefrends
