@@ -3,7 +3,7 @@
             <view class="item-dar-image">
                 <image src="../../pic/2.jpg"></image>
             </view>
-            <view class="item-dar-ctn">
+            <view class="item-dar-ctn" bindtap="toInvitation">
                 <view class="ctn-nc">
                     <view class="dar">小花日记</view>
                     <view class="cancle">

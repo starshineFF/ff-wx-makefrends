@@ -16,6 +16,6 @@
         </view>
         <image src="../../imgs/ic_return.png"></image>
     </view>
-    <view class="circle-build">创建圈子</view>
+    <view class="circle-build" bindtap="toBuild">创建圈子</view>
     
 </view>

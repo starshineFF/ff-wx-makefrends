@@ -1,5 +1,5 @@
 <view class="outPut">
-    <view class="container-dar">
+    <view class="container-dar" bindtap="toDetail">
             <view class="item-dar-image">
                 <image src="../../pic/2.jpg"></image>
             </view>

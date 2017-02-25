@@ -1,22 +1,37 @@
 {
   "pages":[
-   
-   
-    
-   
-    
-   "pages/personalCenter/personalCenter",
-     "pages/index/index",
-      "pages/logs/logs",
+     "pages/index/index",    
       "pages/invitation/invitation",
-       "pages/buid/buid",
+       "pages/build/build",
        "pages/detail/detail",
-        "pages/myCircle/myCircle"
+        "pages/personalCenter/personalCenter",
+        "pages/myCircle/myCircle",
+        "pages/logs/logs"
     
     
     
     
   ],
+   "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"imgs/ic_home_n.png",
+      "selectedIconPath":"imgs/ic_home_h.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/myCircle/myCircle",
+      "iconPath":"imgs/ic_circle_n.png",
+      "selectedIconPath":"imgs/ic_circle_h.png",
+      "text": "圈子"
+    },
+    {
+      "pagePath": "pages/personalCenter/personalCenter",
+      "iconPath":"imgs/ic_my_n.png",
+      "selectedIconPath":"imgs/ic_my_h.png",
+      "text": "我的"
+    }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
